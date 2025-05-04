@@ -4,43 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
     <title>Calculator</title>
 </head>
 <body>
     <div class="display">
         <div class="input"></div>
-        <div class="output"></div>
+        <div class="output">554</div>
     </div>
 
     <div class="buttons">
         <div class="group-1">
-            <button class="numbers">9</button>
-            <button class="numbers">8</button>
-            <button class="numbers">7</button>
-            <button class="clear">AC</button>
-            <button class="backspace"><i class="material-icons">backspace</i></button>
-            
+            <button class="numbers" id="nine">9</button>
+            <button class="numbers" id="eight">8</button>
+            <button class="numbers" id="seven">7</button>
+            <button class="clear" id="clear">AC</button>
+            <button class="backspace" id="backspace"><i class="material-icons">backspace</i></button>
         </div>
         <div class="group-2">
-            <button class="numbers">6</button>
-            <button class="numbers">5</button>
-            <button class="numbers">4</button>
-            <button class="opening-bracket">(</button>
-            <button class="closing-bracket">)</button>
+            <button class="numbers" id="six">6</button>
+            <button class="numbers" id="five">5</button>
+            <button class="numbers" id="four">4</button>
+            <button class="opening-bracket symbol" id="opening-bracket">(</button>
+            <button class="closing-bracket symbol" id="closing-bracket">)</button>
         </div>
         <div class="group-3">
-            <button class="numbers">3</button>
-            <button class="numbers">2</button>
-            <button class="numbers">1</button>
-            <button class="multiplication">×</button>
-            <button class="division">÷</button>
+            <button class="numbers" id="three">3</button>
+            <button class="numbers" id="two">2</button>
+            <button class="numbers" id="one">1</button>
+            <button class="multiplication symbol" id="multiply">×</button>
+            <button class="division symbol" id="divide">÷</button>
         </div>
         <div class="group-4">
-            <button class="decimal">.</button>
-            <button class="numbers">0</button>
-            <button class="equal">=</button>
-            <button class="plus">+</button>
-            <button class="minus">−</button>
+            <button class="decimal" id="decimal">.</button>
+            <button class="numbers" id="zero">0</button>
+            <button class="equal symbol" id="equal">=</button>
+            <button class="plus symbol" id="plus">+</button>
+            <button class="minus symbol" id="minus">−</button>
         </div>
     </div>
     
