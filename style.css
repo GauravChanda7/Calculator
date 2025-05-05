@@ -25,7 +25,9 @@ body {
     padding: 10px;
     box-sizing: border-box;
     overflow: auto;
-    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .output {
@@ -35,7 +37,9 @@ body {
     padding: 10px;
     box-sizing: border-box;
     overflow: auto;
-    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .buttons {
